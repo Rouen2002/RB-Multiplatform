@@ -1,26 +1,39 @@
-# Spotify-downloader
-Es una HERRAMIENTA para DESCARGAR contenido MULTIPLATAFORMA de forma automática desde la terminal de tu teléfono. ​El script procesa enlaces de audio y video de diferentes páginas web, los clasifica en carpetas según⁸ el servicio de origen y guarda los archivos listos para reproducirse sin complicaciones.
+Spotify Downloader
 
-Instalación de dependencias
+Multiplatform Downloader for Termux
 
-Instala las siguientes dependencias en Termux para ejecutar correctamente el script.
+Es una HERRAMIENTA MULTIPLATAFORMA para descargar contenido de diferentes servicios desde la terminal de tu teléfono Android.
 
-1. Actualizar los paquetes:
+Instalación
+
+1. Clonar el repositorio
+
+git clone TU_REPOSITORIO
+cd Spotify-downloader
+
+2. Instalar dependencias del sistema
 
 ```pkg update && pkg upgrade -y```
-
-2. Instalar Python, FFmpeg y Deno:
-
 ```pkg install python ffmpeg deno -y```
 
-3. Instalar las dependencias de Python:
+3. Instalar dependencias de Python
 
 ```python -m pip install -U -r requirements.txt```
 
-¡Listo! Una vez instaladas las dependencias, ya puedes ejecutar el script.
+Uso
 
-Sígueme en Telegram
+Ejecutar el descargador:
 
-"RB MODS" (https://t.me/canalmoded3)
+`python rb.py`
 
-https://t.me/canalmoded3
+Características
+
+- Descargas desde múltiples plataformas.
+- Clasificación automática por carpetas.
+- Conversión de audio a MP3.
+- Metadatos y carátulas.
+- Procesamiento de varios enlaces.
+
+Sígueme
+
+"Telegram - RB MODS" (https://t.me/canalmoded3)
