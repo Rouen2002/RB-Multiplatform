@@ -1,30 +1,28 @@
-Spotify Downloader
-
-Multiplatform Downloader for Termux
-
-Es una HERRAMIENTA MULTIPLATAFORMA para descargar contenido de diferentes servicios desde la terminal de tu teléfono Android.
-
 Instalación
 
-1. Clonar el repositorio 
+1. Clonar el repositorio
 
 ```
 git clone https://github.com/Rouen2002/Spotify-downloader.git
+cd Spotify-downloader
 ```
+2. Configurar el almacenamiento
 
-2. Instalar dependencias del sistema
+```
+termux-setup-storage
+```
+3. Instalar dependencias del sistema
 
 ```
 pkg update && pkg upgrade -y
-`pkg install python ffmpeg deno -y
+pkg install python ffmpeg deno -y
 ```
 
-3. Instalar dependencias de Python
+4. Instalar dependencias de Python
 
 ```
 python -m pip install -U -r requirements.txt
 ```
-
 Uso
 
 Ejecutar el descargador:
@@ -32,7 +30,6 @@ Ejecutar el descargador:
 ```
 python rb.py
 ```
-
 Características
 
 - Descargas desde múltiples plataformas.
@@ -43,4 +40,4 @@ Características
 
 Sígueme
 
-"Telegram - RB MODS" (https://t.me/canalmoded3)
+Telegram - "RB MODS" (https://t.me/canalmoded3)
