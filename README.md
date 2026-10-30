@@ -6,19 +6,18 @@ Es una HERRAMIENTA MULTIPLATAFORMA para descargar contenido de diferentes servic
 
 Instalación
 
-1. Clonar el repositorio
+1. Clonar el repositorio 
 
-git clone TU_REPOSITORIO
-cd Spotify-downloader
+`git clone https://github.com/Rouen2002/Spotify-downloader.git`
 
 2. Instalar dependencias del sistema
 
-```pkg update && pkg upgrade -y```
-```pkg install python ffmpeg deno -y```
+`pkg update && pkg upgrade -y`
+`pkg install python ffmpeg deno -y`
 
 3. Instalar dependencias de Python
 
-```python -m pip install -U -r requirements.txt```
+`python -m pip install -U -r requirements.txt`
 
 Uso
 
