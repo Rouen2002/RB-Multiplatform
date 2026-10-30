@@ -8,25 +8,29 @@ Instalación
 
 1. Clonar el repositorio 
 
-```git clone https://github.com/Rouen2002/Spotify-downloader.git
+```
+git clone https://github.com/Rouen2002/Spotify-downloader.git
 ```
 
 2. Instalar dependencias del sistema
 
-```pkg update && pkg upgrade -y
+```
+pkg update && pkg upgrade -y
 `pkg install python ffmpeg deno -y
 ```
 
 3. Instalar dependencias de Python
 
-```python -m pip install -U -r requirements.txt
+```
+python -m pip install -U -r requirements.txt
 ```
 
 Uso
 
 Ejecutar el descargador:
 
-```python rb.py
+```
+python rb.py
 ```
 
 Características
