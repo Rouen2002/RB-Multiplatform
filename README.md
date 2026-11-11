@@ -8,10 +8,10 @@ Descargador multimedia en consola para Termux y PC compatible con Spotify, YouTu
 
 
 ```
-bash
-git clone [https://github.com/Rouen2002/RB-Multiplatform.git](https://github.com/Rouen2002/RB-Multiplatform.git)
+git clone https://github.com/Rouen2002/RB-Multiplatform.git
 cd RB-Multiplatform
 bash install.sh
+
 ```
 Características
 
