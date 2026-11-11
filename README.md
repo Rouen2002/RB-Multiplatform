@@ -1,34 +1,17 @@
 Instalación
 
-1. Clonar el repositorio
+# 🎬 RB Multi-Downloader · RB MODS
+
+Descargador multimedia en consola para Termux y PC compatible con Spotify, YouTube Music, SoundCloud, YouTube, TikTok y más.
+
+ ⚡ Instalación Rápida (Solo Termux - 1 Comando)
+
 
 ```
-git clone https://github.com/Rouen2002/Spotify-downloader.git
-cd Spotify-downloader
-```
-2. Configurar el almacenamiento
-
-```
-termux-setup-storage
-```
-3. Instalar dependencias del sistema
-
-```
-pkg update && pkg upgrade -y
-pkg install python ffmpeg deno -y
-```
-
-4. Instalar dependencias de Python
-
-```
-python -m pip install -U -r requirements.txt
-```
-Uso
-
-Ejecutar el descargador:
-
-```
-python rb.py
+bash
+git clone [https://github.com/Rouen2002/RB-Multiplatform.git](https://github.com/Rouen2002/RB-Multiplatform.git)
+cd RB-Multiplatform
+bash install.sh
 ```
 Características
 
